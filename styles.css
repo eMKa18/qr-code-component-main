@@ -20,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    min-height: 100vh;
 }
 
 div.wrapper {
@@ -27,7 +28,6 @@ div.wrapper {
     border-radius: 1.5rem;
     max-width: 350px;
     padding: 1rem;
-    margin: auto;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -50,6 +50,6 @@ div.description {
     color: var(--color-gray-blue);
 }
 
-div.attribution {
+footer.attribution {
     padding-top: 1rem;
 }
